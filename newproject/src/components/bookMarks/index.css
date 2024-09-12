@@ -1,0 +1,21 @@
+.app-body{
+    margin-bottom: 40px;
+}
+.btn-icon{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-top: 5px;
+}
+.bookmark-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-mark{
+    font-family: roboto;
+    font-size: 15px;
+}
+.bookmark-container{
+    margin-bottom: 40px;
+}

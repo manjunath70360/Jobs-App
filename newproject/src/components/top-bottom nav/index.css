@@ -1,0 +1,82 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 36px;
+    border-bottom: 1px solid gray;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.laptop-btns{
+    display: flex;
+    align-items: center;
+    width: 14%;
+    justify-content: space-between;
+    margin-right: 22px;
+}
+.app-text{
+    margin: 0px;
+    text-align: left;
+    margin-left: 8px;
+    margin-top: 4px;
+    font-family: roboto;
+    font-size: 16px;
+    margin-right: 12px;
+}
+@media (max-width:600px){
+    .laptop-btns{
+        display: none;
+    }
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 6px; 
+    z-index: 100; 
+    background-color: rgb(70, 70, 167);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .btns {
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-top: 6px;
+text-align: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+
+  .btns:hover {
+    color: rgb(221, 217, 217);
+  }
+  .btns:hover .home-icon{
+    color: rgb(221, 217, 217);
+  }
+  .home-icon{
+    color: white;
+  }
+  
+  @media (min-width:600px){
+    .btn-container{
+        display: none;
+    }
+}

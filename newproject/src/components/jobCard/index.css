@@ -1,0 +1,117 @@
+
+.App {
+    text-align: center;
+  }
+  
+  .job-card{
+   width: 450px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  @media (min-width:600px){
+    .job-card{
+      width: 370px;
+    }
+  }
+  .job-card:hover {
+    background-color: #f1f1f1;
+  }
+  
+  
+  .img{
+    width: 100%;
+    height: 130px;
+  }
+  .job-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .role-com{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .role{
+margin: 0px;
+font-family: roboto;
+font-size: 16px;
+color: black;
+font-weight: 600;
+margin-bottom: 3px;
+
+  }
+  .company{
+    margin: 0px;
+    font-family: roboto;
+font-size: 14px;
+color: rgb(66, 65, 65);
+font-weight: 400;
+  }
+  .icon-con{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .loc{
+    margin: 0px;
+    margin-left: 7px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: rgb(57, 57, 57);
+    font-family: roboto;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .bookmark-icon{
+    color: black;
+  }
+  .icon{
+    color: rgb(146, 145, 145);
+    
+  }
+  .type-con{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+  }
+  .job-type-icons{
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    background-color: rgb(222, 218, 218);
+    padding: 2px;
+    border-radius: 2px;
+  }
+  .exp{
+    margin: 0px;
+    font-family: roboto;
+    font-size: 11px;
+    color: black;
+  }
+  .exp-icon{
+    color: gray;
+    margin-right: 2px;
+    font-size: 18px;
+  }
+  .time-icon-con{
+    display: flex;
+    align-items: center;
+  }
+  .time{
+font-family: roboto;
+font-size: 13px;
+color: gray;
+  }
+  .time-icon{
+font-size: 18px;
+color: gray;
+margin-right: 4px;
+  }
+  .views{
+    color: rgb(104, 104, 246);
+    font-weight: 500;
+  }
